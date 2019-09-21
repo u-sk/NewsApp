@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  BaseViewController.swift
 //  NewsXML
 //
 //  Created by 板垣有祐 on 2019/09/21.
@@ -7,14 +7,17 @@
 //
 
 import UIKit
+import SegementSlide
 
-class ViewController: UIViewController {
+class BaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+
     }
+    
+
 
 
 }
-
