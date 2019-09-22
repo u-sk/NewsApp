@@ -15,13 +15,19 @@ class WebViewController: UIViewController, WKUIDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         
         webView.frame = CGRect(x: 0, y: 0, width: view.frame.size.width, height: view.frame.size.height - 50)
         view.addSubview(webView)
         
-        // ボタン
+        // 戻るボタン
+        let button = UIButton(type: .system)
+        button.addTarget(self, action: #selector(backButton(_ :)), for: .touchUpInside)
+        button.setTitle("戻る", for: .normal)
+        button.frame = CGRect(x: 0, y: self.view.frame.size.height - 50, width: self.view.frame.size.width, height: 50)
+        self.view.addSubview(button)
         
+       
 
         let urlString = UserDefaults.standard.object(forKey: "url")
         let url = URL(string: urlString as! String)
@@ -31,5 +37,9 @@ class WebViewController: UIViewController, WKUIDelegate {
     }
     
 
+    // 戻るボタンをタップした時に呼ばれるメソッド
+    @objc func backButton(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+    }
 
 }
