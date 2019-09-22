@@ -20,6 +20,15 @@
 		02F9723723364DD500E4BB38 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9723623364DD500E4BB38 /* IntroViewController.swift */; };
 		02F972392336515200E4BB38 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F972382336515200E4BB38 /* LoginViewController.swift */; };
 		02F9723B2336564100E4BB38 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9723A2336564100E4BB38 /* BaseViewController.swift */; };
+		02F9723D23365CEC00E4BB38 /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9723C23365CEC00E4BB38 /* Page1ViewController.swift */; };
+		02F9723F2337417F00E4BB38 /* NewsItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9723E2337417F00E4BB38 /* NewsItems.swift */; };
+		02F9724123374AA200E4BB38 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9724023374AA200E4BB38 /* WebViewController.swift */; };
+		02F9724323374D4300E4BB38 /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9724223374D4300E4BB38 /* Page2ViewController.swift */; };
+		02F9724723374DBE00E4BB38 /* Page3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9724623374DBE00E4BB38 /* Page3ViewController.swift */; };
+		02F9724923374DE300E4BB38 /* Page4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9724823374DE300E4BB38 /* Page4ViewController.swift */; };
+		02F9724B23374E1300E4BB38 /* Page5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9724A23374E1300E4BB38 /* Page5ViewController.swift */; };
+		02F9724E23374E3F00E4BB38 /* Page6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9724D23374E3F00E4BB38 /* Page6ViewController.swift */; };
+		02F9725023375BF700E4BB38 /* Page7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9724F23375BF700E4BB38 /* Page7ViewController.swift */; };
 		F113C197933381CE144EF7DA /* Pods_NewsXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 723C2C1C36B2ADB71F98D440 /* Pods_NewsXML.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +48,15 @@
 		02F9723623364DD500E4BB38 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		02F972382336515200E4BB38 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		02F9723A2336564100E4BB38 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		02F9723C23365CEC00E4BB38 /* Page1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
+		02F9723E2337417F00E4BB38 /* NewsItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewsItems.swift; path = NewsXML/Controller/NewsItems.swift; sourceTree = SOURCE_ROOT; };
+		02F9724023374AA200E4BB38 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		02F9724223374D4300E4BB38 /* Page2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
+		02F9724623374DBE00E4BB38 /* Page3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3ViewController.swift; sourceTree = "<group>"; };
+		02F9724823374DE300E4BB38 /* Page4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page4ViewController.swift; sourceTree = "<group>"; };
+		02F9724A23374E1300E4BB38 /* Page5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page5ViewController.swift; sourceTree = "<group>"; };
+		02F9724D23374E3F00E4BB38 /* Page6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page6ViewController.swift; sourceTree = "<group>"; };
+		02F9724F23375BF700E4BB38 /* Page7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page7ViewController.swift; sourceTree = "<group>"; };
 		723C2C1C36B2ADB71F98D440 /* Pods_NewsXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86FC5D8D53F12398FCC636F8 /* Pods-NewsXML.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsXML.release.xcconfig"; path = "Target Support Files/Pods-NewsXML/Pods-NewsXML.release.xcconfig"; sourceTree = "<group>"; };
 		F7E1F9C0C0852CBBF304F611 /* Pods-NewsXML.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsXML.debug.xcconfig"; path = "Target Support Files/Pods-NewsXML/Pods-NewsXML.debug.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +116,14 @@
 				02F9723623364DD500E4BB38 /* IntroViewController.swift */,
 				02F972382336515200E4BB38 /* LoginViewController.swift */,
 				02F9723A2336564100E4BB38 /* BaseViewController.swift */,
+				02F9724023374AA200E4BB38 /* WebViewController.swift */,
+				02F9723C23365CEC00E4BB38 /* Page1ViewController.swift */,
+				02F9724223374D4300E4BB38 /* Page2ViewController.swift */,
+				02F9724623374DBE00E4BB38 /* Page3ViewController.swift */,
+				02F9724823374DE300E4BB38 /* Page4ViewController.swift */,
+				02F9724A23374E1300E4BB38 /* Page5ViewController.swift */,
+				02F9724D23374E3F00E4BB38 /* Page6ViewController.swift */,
+				02F9724F23375BF700E4BB38 /* Page7ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -115,6 +141,7 @@
 		02F9710723364BF900E4BB38 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				02F9723E2337417F00E4BB38 /* NewsItems.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -258,7 +285,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				02F972392336515200E4BB38 /* LoginViewController.swift in Sources */,
+				02F9723D23365CEC00E4BB38 /* Page1ViewController.swift in Sources */,
+				02F9724923374DE300E4BB38 /* Page4ViewController.swift in Sources */,
+				02F9724323374D4300E4BB38 /* Page2ViewController.swift in Sources */,
+				02F9725023375BF700E4BB38 /* Page7ViewController.swift in Sources */,
 				02F9723B2336564100E4BB38 /* BaseViewController.swift in Sources */,
+				02F9724723374DBE00E4BB38 /* Page3ViewController.swift in Sources */,
+				02F9724E23374E3F00E4BB38 /* Page6ViewController.swift in Sources */,
+				02F9723F2337417F00E4BB38 /* NewsItems.swift in Sources */,
+				02F9724123374AA200E4BB38 /* WebViewController.swift in Sources */,
+				02F9724B23374E1300E4BB38 /* Page5ViewController.swift in Sources */,
 				02F970F42336496200E4BB38 /* AppDelegate.swift in Sources */,
 				02F9723723364DD500E4BB38 /* IntroViewController.swift in Sources */,
 			);
